@@ -1,5 +1,0 @@
-FROM frolvlad/alpine-gxx
-Add HelloWorld /HelloWorld
-WORKDIR HelloWorld/
-RUN g++ -o HelloWorld helloworld.cpp
-CMD ["./HelloWorld"]
