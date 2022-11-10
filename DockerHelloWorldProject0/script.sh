@@ -1,3 +1,3 @@
 #!/bin/bash
 ./HelloWorld
-sleep 90
+sleep 900
