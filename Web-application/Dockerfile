@@ -5,4 +5,4 @@ RUN g++ -o WebApp WebApp.c
 CMD ["./WebApp"]
 
 FROM nginx
-COPY index.html /usr/share/nginx/html/index.html
+COPY WebApp/index.html /usr/share/nginx/html/index.html
