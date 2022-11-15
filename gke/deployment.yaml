@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: us-central1-docker.pkg.dev/searce-playground-v1/labs-repo/webapp:latest
+        image: us-central1-docker.pkg.dev/searce-playground-v1/labs-repo/web-app:latest
         resources:
           requests:
             memory: "128Mi"
